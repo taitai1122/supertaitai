@@ -1,83 +1,179 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    font-family: Avenir Next;
-}
-li {
-    list-style: none;
-}
-.header {
-    background-color:darkblue;
-    color:ghostwhite;
-    height: 120px;
-}
-.header-logo {
-    float: left;
-    font-size: 40px;
-    padding: 20px 40px;
-}
-.header-list li {
-    float: left;
-    font-size: 25px;
-    padding: 33px 20px;
+    margin: 0;
+    font-family:fantasy;
 }
 
-.main {
-    padding: 100px 80px;
-}
-.copy-container  h1 {
-    font-size: 140px;
-}
-.copy-container h2 {
-    font-size: 60px;
+a {
+    text-decoration: none;
 }
 
-.contents {
-    height: 3000px;
-    margin-top: 100px;
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
-.section-title {
-    border-bottom: 4px solid #dee7ec;
-    font-size: 28px;
-    padding-bottom: 15px;
-    margin-bottom: 50px;
+.top-wrapper {
+    padding: 300px 0 190px 0;
+    background-image: url(https://i.pinimg.com/originals/35/d4/ad/35d4ad69521c9d65f2ffb3107aba9492.jpg);
+    background-size: cover;
+    color:rgb(0 0 0 / 90%);
+    
+    text-align:center;
 }
-.contens-item {
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+.top-wrapper p {
+    opacity: 0.7;
+    text-align: center;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 15px;
+    text-align: center;
+}
+.signup {
+    background-color:royalblue;
+}
+.facebook {
+    background-color:teal;
+    margin-right: 10px;
+}
+.twitter {
+    background-color:turquoise;
+}
+.btn-wrapper {
+    margin: 20px 0;
+}
+.btn-wrapper p {
+    margin: 10px 0;
+}
+.btn:hover {
+    opacity: 1;
+}
+.fa {
+    margin-right: px;
+}
+
+header {
+    height: 60px;
+    background-color: rgba(201, 217, 221, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.logo {
+    width: 90px;
+    margin-top: px;
+}
+
+.header-left {
     float: left;
-    margin-right: 100px;
 }
-.contens-item p {
-    font-size: 50px;
-    margin-top: 30px;
-    font-family: fantasy;
-}
-
-.contact-form {
-    padding-top: 100px;
-}
-input,textarea {
-    width: 400px;
-    margin: 10px 0 30px 0;
-    padding: 20px;
-    font-size: 18px;
-    border: 3px solid #5bbcf0;
-}
-.contact-submit {
-    background-color: #dee7ec;
-    color: #889eab;
-}
-
-.footer {
-    background-color:mediumblue;
-    color:mintcream;
-    height: 120px;
-    padding: 40px;
-}
-.footer-logo {
-    float: left;
-    font-size: 40px;
-}
-.footer-list {
+.header-right {
     float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
 }
-.footer-list li {
-    padding-bottom: 20px;
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+    line-height: 60px;
+    padding: 0 40px;
+    color: white;
+    display: block;
+    font-size: 30px;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    display: none;
+    font-size: 25px;
+    padding: 21px 0;
+    padding-left: 10px;
+}
+.lesson-wrapper {
+    
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+.heading h2 {
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+.icon {
+    width: 250px;
+}
+.lesson-icon {
+    position: relative;
+}
+.lesson-icon p {
+    position: absolute;
+    top: 227px;
+    width: 100%;
+    color:rgb(26, 45, 99);
+    font-size: 30px;
+}
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #b3aeb5; 
+}
+.clear {
+    clear: left;
+}
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.message {
+    background-color: #3151e0;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #0206f1; 
+}
+.heading h3 {
+    font-weight: normal; 
+}
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+footer img {
+    width: 200px
+}
+footer p {
+    color:  #655e68;
+    font-size: 20px;
+}
+footer {
+    padding-top: 30px;
 }
