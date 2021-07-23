@@ -3,6 +3,9 @@
         width: 50%;
         margin-bottom: 50px;
     }
+    .top-wrapper {
+        background-size:contain;
+    }
     .top-wrapper h1 {
         font-size: 32px;
     }
@@ -29,8 +32,7 @@
     .top-wrapper {
         text-align: left;
         padding-top: 130px;
-        background-image: url(https://i.pinimg.com/originals/35/d4/ad/35d4ad69521c9d65f2ffb3107aba9492.jpg);
-        background-size:cover;
+        
     }
     .header-right {
         display: none;
